@@ -19,7 +19,7 @@ Approach
 System Architecture
 
   main.py:
-    This module serves as the central coordinator for the entire process. It iterates through each tier folder, processing each HTML file (capturing screenshots, extracting text, calculating similarities), and finally clusters the files based on their similarity.
+    This module serves as the central coordinator for the entire process. It iterates through each tier folder, processing each HTML file (capturing screenshots, extracting text, calculating similarities), and finally clusters the files based on their similarity.It is important that the folder named "clones" exists in the same directory as the program, as this folder contains the HTML files organized into tier subfolders. Additionally, the program creates a folder named "Raspuns", which organizes the output by tier and by cluster for easy visualization of the results.
   
   screenshot.py:
     This module is responsible for launching a headless browser, loading the HTML files, and capturing screenshots.
